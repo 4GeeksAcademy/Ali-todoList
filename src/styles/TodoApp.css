@@ -1,0 +1,39 @@
+.todos-wrapper {
+    margin: 20px auto;
+    /* width: 400px; */
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus{
+    border-color: #333;
+
+}
+.task-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+.task:hover {
+    background-color: #f0f0f0;
+}
